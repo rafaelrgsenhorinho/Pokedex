@@ -1,0 +1,32 @@
+.attributes:hover {
+    filter: brightness(1.1)
+}
+
+.attributes:hover .dp-menu{
+    opacity: 90%;
+}
+
+.dp-menu {
+    display: none;
+    position: absolute;
+}
+
+.attributes:hover .dp-menu {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    list-style: none;
+    margin: .5rem;
+    padding: 1rem 2.35rem;
+    border-radius: .8rem;
+    grid-template-columns: 1fr;
+}
+
+.attributes:hover .dp-menu li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .2rem;
+    padding: .2rem;
+}
